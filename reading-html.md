@@ -17,9 +17,9 @@ Defines the document's head element. The browser does not display this element, 
 * _content_: one or more elements of metadata content where exactly one is a ['<title>'](#title) element
 * _category_: none
 
-### Attributes
+* _attributes_:
 
-* `profile` -- The URIs of one or more metadata profiles, separated by white space
+`profile` -- The URIs of one or more metadata profiles, separated by white space
 
 
 ## `<body>`
@@ -30,14 +30,14 @@ Defines the document's body element. There is only one body element inside an HT
 * _content_: [Flow Contant][1]
 * _category_: sectioning root
 
-### Attributes
+* _attributes_:
 
-* `background` -- URI of a image to use as a background
-* `top-margin` -- The margin of the top of the body
-* `right-margin` -- The margin of the right of the body
-* `bottom-margin` -- The margin of the bottom of the body
-* `left-margin` -- The margin of the left of the body
-* `text` -- Foreground color of text
+`background` -- URI of a image to use as a background
+`top-margin` -- The margin of the top of the body
+`right-margin` -- The margin of the right of the body
+`bottom-margin` -- The margin of the bottom of the body
+`left-margin` -- The margin of the left of the body
+`text` -- Foreground color of text
 
 
 ## `<title>`
@@ -73,12 +73,12 @@ This tag is used to create a link to external resources such as a different webp
 * _display_: `inline`
 * _category_: any [Flow Contant][1], palpable content, phrasing content, interactive content
 
-### Attributes
+* _attributes_:
 
-* `href` -- single required attribute for anchors defining a hypertext source link
-* `rel` -- this attribute specifies the relationship of the target object to the link object.
-* `type` -- Indicates the numbering type
-* `target` -- specifies where to display the linked resource
+`href` -- single required attribute for anchors defining a hypertext source link
+`rel` -- this attribute specifies the relationship of the target object to the link object.
+`type` -- Indicates the numbering type
+`target` -- specifies where to display the linked resource
 
 
 ## `<article>`
@@ -135,10 +135,10 @@ Represents an ordered list of items.
 * _display_: `block`
 * _category_: [Flow Contant][1], and if the ['<ol>'](#ol) element's children include at least one
 
-### Attributes
+* _attributes_:
 
-* `start` --  specifies the start value for numbering the individual list items.
-* `type` -- Indicates the numbering type
+`start` --  specifies the start value for numbering the individual list items.
+`type` -- Indicates the numbering type
 
 
 ## `<p>`
@@ -179,9 +179,9 @@ Represents an unordered list of items, namely a collection of items that do not 
 * _display_: `block`
 * _category_: [Flow Contant][1]
 
-### Attributes
+* _attributes_:
 
-* `type` -- Used to set the bullet style for the list.
+`type` -- Used to set the bullet style for the list.
 
 ###### Footnotes
 
