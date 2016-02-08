@@ -1,4 +1,4 @@
-[HTML Tags][2] are made up of characters that sit inside angled brackets. An [HTML Tags][2] consists of an opening tag, the corresponding closing tag, and the text in between They give the information they surround special meaning. Opening tags can carry attributes, which tell us more about the content of that element. Attributes require a name and a value.
+HTML tags are made up of characters that sit inside angled brackets. An HTML tags consists of an opening tag, the corresponding closing tag, and the text in between They give the information they surround special meaning. Opening tags can carry attributes, which tell us more about the content of that element. Attributes require a name and a value.
 
 ## `<html>`
 
@@ -186,4 +186,3 @@ Represents an unordered list of items, namely a collection of items that do not 
 ###### Footnotes
 
 [1](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content)
-[2](https://developer.mozilla.org/en-US/Learn/HTML/HTML_tags)
