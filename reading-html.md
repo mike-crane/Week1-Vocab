@@ -45,7 +45,7 @@ Defines the document's body element. There is only one body element inside an HT
 Defines the document's title element. The title element is the only mandatory HTML element, and it goes inside the head element since the title is part of the metadata shown in various places (such as the browser tab or as part of a search engine result).
 
 
-* _parents_: A ['<head>'](#head) element that contains no other <title> element.
+* _parents_: A head element that contains no other <title> element.
 * _content_: Text that is not inter-element whitespace
 * _category_: metadata content
 
@@ -104,7 +104,7 @@ HTML Document Division Element is the generic container for flow content, which 
 Represents a footer for its nearest sectioning content or sectioning root element. A footer typically contains information about the author of the section, copyright data or links to related documents.
 
 * _parents_: Any element that accepts [Flow Contant][1]
-* _content_: [Flow Contant][1] but with no ['<footer>'](#footer) or ['<header>'](#header) descendants
+* _content_: [Flow Contant][1] but with no footer or header descendants
 * _category_:[Flow Contant][1], palpable content
 
 
@@ -113,7 +113,7 @@ Represents a footer for its nearest sectioning content or sectioning root elemen
 Represents a group of introductory or navigational aids. It may contain some heading elements but also other elements like a logo, wrapped section's header, a search form, and so on. <h1>, <h2>, <h3>, <h4>, <h5>, <h6> These tags define headings, ranging from h1 for the most general heading to h6 for the most 		specific.
 
 * _parents_: Any element that accepts [Flow Contant][1]
-* _content_: [Flow Contant][1] but with no ['<footer>'](#footer) or ['<header>'](#header) descendants
+* _content_: [Flow Contant][1] but with no footer or header descendants
 * _display_: `block`
 * _category_: [Flow Contant][1], palpable content
 
@@ -131,9 +131,9 @@ Represents a section of a page that links to other pages or to parts within the 
 Represents an ordered list of items.
 
 * _parents_: Any element that accepts [Flow Contant][1]
-* _content_: Zero or more ['<li>'](#li) elements
+* _content_: Zero or more list elements
 * _display_: `block`
-* _category_: [Flow Contant][1], and if the ['<ol>'](#ol) element's children include at least one
+* _category_: [Flow Contant][1], and if the ordered list element's children include at least one
 
 * _attributes_:
 
@@ -175,7 +175,7 @@ A generic inline container for phrasing content that can be used to group elemen
 Represents an unordered list of items, namely a collection of items that do not have a numerical ordering, and their order in the list is meaningless.
 
 * _parents_: Any element that accepts [Flow Contant][1]
-* _content_: zero or more ['<li>'](#li) elements, eventually mixed with ['<ol>'](#ol) and ['<ul>'](#ul) elements.
+* _content_: zero or more list elements, eventually mixed with ordered list and unordered list elements.
 * _display_: `block`
 * _category_: [Flow Contant][1]
 
