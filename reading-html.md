@@ -45,7 +45,7 @@ Defines the document's body element. There is only one body element inside an HT
 Defines the document's title element. The title element is the only mandatory HTML element, and it goes inside the head element since the title is part of the metadata shown in various places (such as the browser tab or as part of a search engine result).
 
 
-* _parents_: A head element that contains no other <title> element.
+* _parents_: A head element that contains no other title element.
 * _content_: Text that is not inter-element whitespace
 * _category_: metadata content
 
