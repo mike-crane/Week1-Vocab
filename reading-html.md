@@ -110,12 +110,13 @@ Represents a footer for its nearest sectioning content or sectioning root elemen
 
 ## `<header>`
 
-Represents a group of introductory or navigational aids. It may contain some heading elements but also other elements like a logo, wrapped section's header, a search form, and so on. <h1>, <h2>, <h3>, <h4>, <h5>, <h6> These tags define headings, ranging from h1 for the most general heading to h6 for the most 		specific.
+Represents a group of introductory or navigational aids. It may contain some heading elements but also other elements like a logo, wrapped section's header, a search form, and so on.
 
 * _parents_: Any element that accepts [Flow Contant][1]
 * _content_: [Flow Contant][1] but with no footer or header descendants
 * _display_: `block`
 * _category_: [Flow Contant][1], palpable content
+
 
 ## `<nav>`
 
