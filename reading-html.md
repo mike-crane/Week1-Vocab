@@ -14,7 +14,7 @@ Defines the document's root element. Each HTML document contains only one root e
 Defines the document's head element. The browser does not display this element, which only carries metadata like the title and description. Browsers can use metadata to enhance the user's experience, and we'll discuss it later on.
 
 * _parents_: ['<HTML>'](#HTML) element, as its first child
-* _content_: one or more elements of metadata content where exactly one is a <title> element
+* _content_: one or more elements of metadata content where exactly one is a title element
 * _category_: none
 
 * _attributes_:
